@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Autofill</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Job Autofill</h1>
+      <span id="site-badge" class="badge">Unknown</span>
+    </header>
+
+    <main>
+      <button id="fill-btn" class="primary-btn">
+        Fill Form
+      </button>
+
+      <div id="status" class="status hidden">
+        <div class="status-row">
+          <span class="label">Filled:</span>
+          <span id="filled-count" class="count">0</span>
+        </div>
+        <div class="status-row">
+          <span class="label">Uncertain:</span>
+          <span id="uncertain-count" class="count warning">0</span>
+        </div>
+        <div class="status-row">
+          <span class="label">Skipped:</span>
+          <span id="skipped-count" class="count muted">0</span>
+        </div>
+      </div>
+
+      <div id="error" class="error hidden"></div>
+
+      <button id="save-btn" class="secondary-btn hidden">
+        Save Corrections
+      </button>
+    </main>
+
+    <footer>
+      <p class="hint">Yellow = review suggested | Orange = best guess</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

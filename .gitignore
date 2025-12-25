@@ -1,0 +1,12 @@
+# Personal data - don't commit real profile
+data/profile.json
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/

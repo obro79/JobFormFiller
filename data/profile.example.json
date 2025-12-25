@@ -1,0 +1,56 @@
+{
+  "personal": {
+    "firstName": "Your First Name",
+    "lastName": "Your Last Name",
+    "email": "your.email@example.com",
+    "phone": "1234567890",
+    "phoneCountryCode": "+1",
+    "phoneType": "Mobile",
+    "address": {
+      "street": "123 Main Street",
+      "city": "Your City",
+      "state": "Your State",
+      "zip": "12345",
+      "country": "Your Country"
+    },
+    "linkedin": "https://www.linkedin.com/in/yourprofile",
+    "portfolio": "",
+    "github": ""
+  },
+  "work": [
+    {
+      "company": "Current Company",
+      "title": "Your Job Title",
+      "startDate": "01/2024",
+      "endDate": "Present",
+      "current": true,
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "school": "Your University",
+      "degree": "Bachelor's",
+      "field": "Your Major",
+      "startDate": "09/2020",
+      "endDate": "05/2024",
+      "gpa": ""
+    }
+  ],
+  "skills": [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3"
+  ],
+  "coverLetter": "",
+  "additionalInfo": {
+    "workAuthorization": "Yes",
+    "workAuthorizationText": "I am legally authorized to work",
+    "sponsorshipRequired": false,
+    "sponsorshipRequiredText": "No",
+    "veteranStatus": "I am not a veteran",
+    "disability": "Prefer not to answer",
+    "ethnicity": "Prefer not to answer",
+    "gender": "Prefer not to answer"
+  }
+}
