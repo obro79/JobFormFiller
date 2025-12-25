@@ -56,7 +56,34 @@ const FieldMatcher = {
     'race|ethnic|ethnicity': 'additionalInfo.ethnicity',
 
     // Cover Letter
-    'cover\\s*letter': 'coverLetter'
+    'cover\\s*letter': 'coverLetter',
+
+    // Additional Personal
+    'middle\\s*name': 'personal.middleName',
+    'preferred\\s*name|nickname': 'personal.preferredName',
+    'suffix': 'personal.suffix',
+    'citizenship|nationality': 'personal.citizenship',
+
+    // How did you hear
+    'how\\s*did\\s*you\\s*hear|hear\\s*about|source|referral': 'additionalInfo.howDidYouHear',
+
+    // Salary & Availability
+    'salary\\s*expectation|desired\\s*salary|expected\\s*salary|compensation': 'additionalInfo.desiredSalary',
+    'current\\s*salary': 'additionalInfo.currentSalary',
+    'available.*start|earliest.*start|when.*start|start.*date(?!.*work)': 'additionalInfo.availableStartDate',
+    'notice\\s*period': 'additionalInfo.noticePeriod',
+
+    // Experience & Preferences
+    'years.*experience|experience.*years|total.*experience': 'additionalInfo.yearsExperience',
+    'relocation|willing.*relocate|open.*relocation': 'additionalInfo.willingToRelocate',
+    'remote|hybrid|on-?site|work.*location|work.*preference|workplace': 'additionalInfo.workPreference',
+
+    // Previous Applications
+    'applied.*before|previous.*application|previously.*applied': 'additionalInfo.appliedBefore',
+    'worked.*before|previous.*employee|former.*employee|previously.*employed': 'additionalInfo.workedBefore',
+
+    // Languages
+    'language|fluent|proficiency': 'languages[0].language'
   },
 
   // Get label text for a form element

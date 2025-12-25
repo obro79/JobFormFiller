@@ -1,7 +1,11 @@
 {
   "personal": {
     "firstName": "Your First Name",
+    "middleName": "",
     "lastName": "Your Last Name",
+    "preferredName": "",
+    "suffix": "",
+    "citizenship": "Your Country",
     "email": "your.email@example.com",
     "phone": "1234567890",
     "phoneCountryCode": "+1",
@@ -51,6 +55,22 @@
     "veteranStatus": "I am not a veteran",
     "disability": "Prefer not to answer",
     "ethnicity": "Prefer not to answer",
-    "gender": "Prefer not to answer"
-  }
+    "gender": "Prefer not to answer",
+    "howDidYouHear": "LinkedIn",
+    "desiredSalary": "",
+    "currentSalary": "",
+    "availableStartDate": "Immediately",
+    "noticePeriod": "",
+    "yearsExperience": "",
+    "willingToRelocate": "Yes",
+    "workPreference": "No preference",
+    "appliedBefore": "No",
+    "workedBefore": "No"
+  },
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Fluent"
+    }
+  ]
 }
